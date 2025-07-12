@@ -71,6 +71,8 @@ export function Registration({ onSuccess, onSwitchToSignIn }) {
   };
 
   return (
+    <div className="logo-container">
+      <img src="./Form_img/Logo.png" alt="Logo" className="form-logo" />
     <div className="form-container">
       <h2 className="welcome-text">Welcome to your<br /><span className="community-text">professional community</span></h2>
       <form onSubmit={handleSubmit} noValidate>
@@ -145,6 +147,7 @@ export function Registration({ onSuccess, onSwitchToSignIn }) {
         </button>
 
       </form>
+    </div>
     </div>
   );
 }

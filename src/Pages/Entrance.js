@@ -41,6 +41,8 @@ export function Entrance({ onSuccess, onSwitchToSignUp }) {
   };
 
   return (
+    <div className="logo-container">
+      <img src="./Form_img/Logo.png" alt="Logo" className="form-logo" />
     <div className="form-container2">
       <h2 className="welcome-text">
         Welcome back<br />
@@ -101,6 +103,7 @@ export function Entrance({ onSuccess, onSwitchToSignUp }) {
 
 
       </form>
+    </div>
     </div>
   );
 }

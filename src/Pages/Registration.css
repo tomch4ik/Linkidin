@@ -57,6 +57,7 @@ vertical-align: middle;
   height: 698px;
   margin: 40px auto;
   box-shadow: 0 0 20px rgba(0,0,0,0.05);
+  position: relative;
 }
 
 .form-container2
@@ -68,6 +69,16 @@ vertical-align: middle;
   height: 630px;
   margin: 40px auto;
   box-shadow: 0 0 20px rgba(0,0,0,0.05);
+  position: relative;
+}
+
+.form-logo {
+  position: absolute;
+  width: 96px;
+  height: 96px;
+  top: 48px;
+  left: 48px;
+  z-index: 10;
 }
 
 .welcome-text {

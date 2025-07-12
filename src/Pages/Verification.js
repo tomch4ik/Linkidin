@@ -35,6 +35,8 @@ export function Verification({ onSubmit, onBack }) {
   };
 
   return (
+    <div className="logo-container">
+      <img src="./Form_img/Logo.png" alt="Logo" className="form-logo" />
     <div className="verification-container">
       <h3>One last step</h3>
       <h2>enter the verification code</h2>
@@ -63,6 +65,7 @@ export function Verification({ onSubmit, onBack }) {
 
         <button type="button" className="back-btn" onClick={onBack}>Back</button>
       </form>
+    </div>
     </div>
   );
 }
