@@ -58,6 +58,8 @@ vertical-align: middle;
   margin: 40px auto;
   box-shadow: 0 0 20px rgba(0,0,0,0.05);
   position: relative;
+  margin-top: 190px;
+  margin-bottom: 190px;
 }
 
 .form-container2
@@ -70,6 +72,8 @@ vertical-align: middle;
   margin: 40px auto;
   box-shadow: 0 0 20px rgba(0,0,0,0.05);
   position: relative;
+  margin-top: 225px;
+  margin-bottom: 225px;
 }
 
 .form-logo {
